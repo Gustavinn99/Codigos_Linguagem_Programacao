@@ -1,0 +1,5 @@
+quem = input("Quem é o personagem principal?: ") 
+local = input("Onde ocorreu a história?: ")
+outro_personagem = input("Qual a outra pessoa?: ")
+quem_pegou = input("Quem viu os dois?: ")
+print(f'{quem_pegou} viu {quem} no/a {local} se pegando com {outro_personagem}')
